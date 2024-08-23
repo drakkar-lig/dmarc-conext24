@@ -44,9 +44,16 @@ You can either launch a jupyter-notebook server or run the following command :
 jupytext --execute GenerateData.ipynb
 ```
 
+
 The generated data and table can be found in the created folder 'results'. 
 Although, the results can be found in the [data repository](https://entrepot.recherche.data.gouv.fr/file.xhtml?persistentId=doi:10.57745/I36UKN).
 
+You may also compile the LaTex document by running the following commands :
+
+```bash
+cd results
+pdflatex generated_LaTeX_document.tex
+```
 
 # Features evaluation
 
