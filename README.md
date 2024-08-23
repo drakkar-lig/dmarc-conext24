@@ -18,7 +18,7 @@ You can download the zip file 'dmarc-datasets-conext24.zip' from the data reposi
 ```bash
 git clone https://github.com/drakkar-lig/dmarc-conext24
 cd dmarc-conext24
-wget --content-disposition https://entrepot.recherche.data.gouv.fr/api/access/datafile/:persistentId?persistentId=doi:10.57745/GXFEMF 
+wget --content-disposition 'https://entrepot.recherche.data.gouv.fr/api/access/datafile/:persistentId?persistentId=doi:10.57745/GXFEMF' 
 unzip dmarc-datasets-conext24.zip
 ```
 Elaborate datasets and experiment descriptions are provided in the README file in the data 
@@ -45,7 +45,7 @@ jupytext --execute GenerateData.ipynb
 ```
 
 The generated data and table can be found in the created folder 'results'. 
-Although, the results can be found in the data repository : link to Entrepôt data 
+Although, the results can be found in the [data repository](https://entrepot.recherche.data.gouv.fr/file.xhtml?persistentId=doi:10.57745/I36UKN).
 
 
 # Features evaluation
